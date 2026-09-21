@@ -1,0 +1,20 @@
+### Backend (Maven) ###
+backend/target/
+!backend/**/src/main/**/target/
+!backend/**/src/test/**/target/
+
+### Frontend (Node) ###
+frontend/node_modules/
+frontend/dist/
+
+### Local environment overrides ###
+.env
+*.local
+
+### IDEs ###
+.idea/
+.vscode/
+*.iml
+.settings/
+.project
+.classpath
