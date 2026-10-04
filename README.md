@@ -341,10 +341,10 @@ Small pointers for explaining this project in an interview:
 
 ## Known limitations
 
-This is a teaching project, not a product:
+**This is a teaching project, not a production-ready system.**
 
-- No refresh tokens, no password reset, no account locking.
-- One leave balance row per user per type; no holiday calendars, no half days.
-- Balances only change on approval, and only for the current year.
-- Rejected/approved requests cannot be edited.
-- Plain CSS only (no UI framework): one hand-written stylesheet with design tokens, responsive breakpoints, and no component library.
+- Authentication is intentionally simplified: no refresh tokens, password reset, or account-locking mechanisms.
+- Each user has one leave-balance record per leave type. Holiday calendars and half-day leave are intentionally out of scope.
+- Leave balances are updated only when a request is approved and apply exclusively to the current year.
+- Approved or rejected leave requests cannot be modified.
+- The frontend uses plain CSS without any UI framework or component library, with a single hand-written stylesheet containing design tokens and responsive breakpoints.
